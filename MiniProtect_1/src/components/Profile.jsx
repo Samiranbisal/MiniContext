@@ -6,7 +6,7 @@ function Profile() {
     
     // <div>Profile</div>
     if (!user) return <h1>Please Login</h1>
-    return <h1>Wellcome{ user.userName }</h1>
+    return <h1>Wellcome { user.userName }</h1>
   
 }
 

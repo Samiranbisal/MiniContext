@@ -14,8 +14,11 @@ function Login() {
         <>
             <h1>Login Page</h1>
             <input type="text" placeholder="User Name" value={userName} onChange={(e) => setUserName(e.target.value)} />
+            {" "}
             <input type="text" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
             <button onClick={handleSubmit}>Submit</button>
         </>
     )
 }
+
+export default Login;
